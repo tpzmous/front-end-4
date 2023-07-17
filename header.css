@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+  }
+  
+  p {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ff00ff; /* Warna awal shadow */
+    animation: neonEffect 2s infinite;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    animation: neonEffect 2s infinite;
+  }
+  
+  @keyframes neonEffect {
+    0% {
+      color: #ff00ff;
+      text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff, 0 0 100px #ff00ff;
+    }
+    25% {
+      color: #00ff00;
+      text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00;
+    }
+    50% {
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff;
+    }
+    75% {
+      color: #ff0000;
+      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 0 100px #ff0000;
+    }
+    100% {
+      color: #ffff00;
+      text-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00, 0 0 30px #ffff00, 0 0 40px #ffff00, 0 0 70px #ffff00, 0 0 80px #ffff00, 0 0 100px #ffff00;
+    }
+  }
+  

@@ -1,0 +1,47 @@
+body {
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+  }
+  
+  .sambutan {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 20px;
+    color: #333;
+    text-shadow: none;
+  }
+  
+  .blurred-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("EXCLOVERINZ.COM - FILE/Loli  (32).png");
+    background-size: cover;
+    background-position: center;
+    filter: blur(100px);
+  }
+  
+  .nengah {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
